@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.tmp
+
+# Credentials / secrets
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+
+# Large/temporary packet captures
+# Uncomment if your GitHub repository should not contain PCAP files:
+# evidence/pcap/*.pcap
+
+# Lab-generated malware/sample binaries
+*.exe
+*.bin
+*.elf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.swp
+*.swo
+*~
